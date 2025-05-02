@@ -20,20 +20,26 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e fazer as configurações no seu ambiente.</p>
                 <form action="login.php" method="post">
-                    <p>
-                        <label for="iemail"></label>
-                        <input type="email" name="email" id="iemail" placeholder="seu e-mail..." required>
-                    </p>
+                    <div class="campo">
+                        <img width="20" height="20" src="https://img.icons8.com/pastel-glyph/64/person-male--v3.png" alt="person-male--v3">
+                        <input type="email" name="login" id="ilogin" placeholder="seu e-mail..." maxlength="30" required>
+                        <label for="iemail">Login</label>
+                    </div>
 
-                    <p>
-                        <label for="isenha"></label>
+                    <div class="campo">
+                        <img width="20" height="20" src="https://img.icons8.com/material-rounded/24/key--v1.png" alt="key--v1"/>
                         <input type="password" name="senha" id="isenha" placeholder="sua senha..." minlength="8" maxlength="15" required>
-                    </p>
+                        <label for="isenha">Senha</label>
+                    </div>
 
-                    <p>
+                    <div class="campo">
                         <input type="submit" value="Entrar">
-                        <input type="submit" value="Esqueci a senha">
-                    </p>
+                        <a href="esqueci.html">Esqueci a senha</a>
+                        <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/new-post.png" alt="new-post">
+                        
+
+
+                    </div>
 
                 </form>
 
