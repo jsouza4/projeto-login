@@ -28,6 +28,10 @@ Grandes telas: acima de 1200px
         float: right;
         width: 70%;
     }
+
+    #login p {
+        font-size: 1em;
+    }
 }
 
 @media screen and (min-width: 992px) {
